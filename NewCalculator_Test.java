@@ -3,7 +3,7 @@ public class NewCalculator_Test{
 
   private static boolean test_StartValueOfFirstNumber(){
     double temp = calc.getFirstNumber();
-    if(2==temp){
+    if(0==temp){
       return true;
     }
     return false;
